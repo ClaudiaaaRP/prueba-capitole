@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.capitole.co.converter.PricesConverter;
+import com.capitole.co.dao.api.CapitoleDAO;
 import com.capitole.co.persistence.Prices;
 import com.capitole.co.persistence.PricesDto;
 import com.capitole.co.repository.PricesRepository;
 import com.capitole.co.utils.UtilsManager;
-import com.capitole.dao.api.CapitoleDAO;
 
 @Service
 public class CapitoleDAOImpl implements CapitoleDAO {

@@ -1,4 +1,4 @@
-package com.capitole.dao.api;
+package com.capitole.co.dao.api;
 
 import java.time.OffsetDateTime;
 import java.util.List;
